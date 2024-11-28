@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailiwnd CSS Based Project</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- AOS CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+<!-- AOS JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+</head>
+<body>
+    <!-- Responsive Tailwind CSS Code -->
+<!-- Navigation Section -->
+<nav class="flex flex-wrap justify-center items-center gap-4 bg-black h-10 text-[#ADADAD] text-xs sm:text-sm font-medium border-b-2 border-white">
+    <a href="#">HOME</a>
+    <a href="#">ABOUT US</a>
+    <a href="#">GIT RESGISTRY</a>
+    <a href="#">MY ACCOUNT</a>
+</nav>
+
+<!-- Header Section -->
+<div class="bg-[#353535] h-auto flex flex-wrap items-center justify-between p-4">
+    <div class="w-full sm:w-auto flex justify-center sm:justify-start">
+        <img src="assets/logo.webp" alt="logo" class="w-48 h-auto"data-aos="fade-right">
+    </div>
+
+    <div class="w-full sm:w-auto mt-4 sm:mt-0">
+        <div class="relative" data-aos="fade-left">
+            <input type="text" placeholder="Search" class="w-full sm:w-48 lg:w-60 text-white bg-[#353535] border-b-2 border-white px-2 py-1 focus:outline-none">
+            <i class='bx bx-search absolute right-2 top-2 text-[#1fc0a0] text-lg'></i>
+        </div>
+    </div>
+</div>
+
+<!-- Hero Section -->
+<div>
+    <img src="assets/slider.jpg" alt="banner" class="w-full h-auto">
+</div>
+
+<!-- Main Section -->
+<div class="bg-[#212121] flex flex-wrap items-center p-6 lg:py-20 lg:px-60">
+    <div class="w-full lg:w-1/2 flex justify-center mb-6 lg:mb-0">
+        <img src="assets/home-banner.jpg" alt="img" class="w-80 lg:w-96 h-auto" data-aos="fade-down">
+    </div>
+    <div class="w-full lg:w-1/2 text-sm md:text-base text-[#b0b0b0] leading-6">
+        <p data-aos="fade-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam felis turpis, hendrerit interdum sodales sit amet, rutrum ac neque...</p>
+        <p data-aos="fade-right" class="mt-4">Mauris vitae libero vitae ipsum malesuada facilisis. Suspendisse convallis massa purus, ut fermentum dolor dignissim sit amet...</p>
+    </div>
+</div>
+
+<div class="bg-[#212121] px-4 lg:pl-60 py-4">
+    <h2 class="text-[#1fc0a0] text-lg md:text-2xl">Featured Products</h2>
+</div>
+
+<!-- Products Section -->
+<div class="bg-[#212121]">
+    <!-- First Row of Products -->
+    <div class="flex flex-wrap justify-center gap-6 p-4">
+        <div class="w-full sm:w-72 lg:w-[510px] h-72 bg-cover hover:scale-105 transition duration-300 ease-in-out"
+             style="background-image: url('https://img.freepik.com/premium-photo/sneaker-photgraphy-hd-8k-wallpaper-stock-photographic-image_890746-32354.jpg?ga=GA1.1.904921068.1702209666&semt=ais_hybrid');"
+             data-aos="zoom-in" data-aos-duration="1000">
+        </div>
+        <div class="w-full sm:w-72 lg:w-[510px] h-72 bg-cover hover:scale-105 transition duration-300 ease-in-out"
+             style="background-image: url('https://img.freepik.com/premium-photo/photo-nike-shoe-with-molded-heel-counter_1298493-40914.jpg');"
+             data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">
+        </div>
+    </div>
+
+    <!-- First Row Text -->
+    <div class="flex flex-wrap justify-center gap-6 lg:gap-96 p-4" data-aos="fade-up" data-aos-duration="1500">
+        <div class="text-center">
+            <h3 class="text-[16px] lg:text-[18px] text-[#1fc0a0]">Blue Sneakers</h3>
+            <span class="text-white block">$ 2,000.00</span>
+            <span class="font-bold text-white block">Join in</span>
+            <button class="hover:bg-white bg-[#1fc0a0] w-40 h-12 mt-4 text-black font-bold">ADD TO CART</button>
+        </div>
+        <div class="text-center">
+            <h3 class="text-[16px] lg:text-[18px] text-[#1fc0a0]">Pink Neon</h3>
+            <span class="text-white block">$ 2,000.00</span>
+            <span class="font-bold text-white block">Join in</span>
+            <button class="hover:bg-white bg-[#1fc0a0] w-40 h-12 mt-4 text-black font-bold">ADD TO CART</button>
+        </div>
+    </div>
+
+    <!-- Second Row of Products -->
+    <div class="flex flex-wrap justify-center gap-6 p-4">
+        <div class="w-full sm:w-72 lg:w-[510px] h-72 bg-cover hover:scale-105 transition duration-300 ease-in-out"
+            style="background-image: url('https://img.freepik.com/premium-photo/new-sneaker-shoe-design-flying-running-shoes-advertising_742418-36079.jpg?ga=GA1.1.904921068.1702209666&semt=ais_hybrid');"
+            data-aos="fade-right" data-aos-duration="1200">
+        </div>
+        <div class="w-full sm:w-72 lg:w-[510px] h-72 bg-cover hover:scale-105 transition duration-300 ease-in-out"
+            style="background-image: url('https://img.freepik.com/free-photo/close-up-futuristic-sneakers_23-2151005731.jpg?ga=GA1.1.904921068.1702209666&semt=ais_hybrid');"
+            data-aos="fade-left" data-aos-duration="1200">
+        </div>
+    </div>
+
+    <!-- Second Row Text -->
+    <div class="flex flex-wrap justify-center gap-6 lg:gap-96 p-4" data-aos="fade-up" data-aos-delay="400">
+        <div class="text-center">
+            <h3 class="text-[16px] lg:text-[18px] text-[#1fc0a0]">Blue Sneakers</h3>
+            <span class="text-white block">$ 2,000.00</span>
+            <span class="font-bold text-white block">Join in</span>
+            <button class="hover:bg-white bg-[#1fc0a0] w-40 h-12 mt-4 text-black font-bold">ADD TO CART</button>
+        </div>
+        <div class="text-center">
+            <h3 class="text-[16px] lg:text-[18px] text-[#1fc0a0]">Pink Neon</h3>
+            <span class="text-white block">$ 2,000.00</span>
+            <span class="font-bold text-white block">Join in</span>
+            <button class="hover:bg-white bg-[#1fc0a0] w-40 h-12 mt-4 text-black font-bold">ADD TO CART</button>
+        </div>
+    </div>
+</div>
+
+
+<!-- 50% Off Section -->
+<div class="bg-[#212121] text-center py-8">
+    <h1 class="text-2xl md:text-4xl text-white font-bold" data-aos="fade-down" data-aos-duration="1000">
+        Get 50% OFF
+    </h1>
+    
+    <div class="flex flex-wrap justify-center gap-4 mt-6">
+        <div class="w-64 h-64 bg-cover hover:scale-105 transition duration-300 ease-in-out"
+            style="background-image: url('https://img.freepik.com/premium-photo/blue-running-shoe-leaning-cube-with-neon-fifty-percent-discount-sign_762128-1676.jpg');"
+            data-aos="zoom-in" data-aos-duration="1000">
+        </div>
+        <div class="w-64 h-64 bg-cover hover:scale-105 transition duration-300 ease-in-out"
+            style="background-image: url('https://img.freepik.com/premium-photo/cyber-monday-neon-template-with-gorgeous-black-white-sports-shoes_610716-2202.jpg?ga=GA1.1.904921068.1702209666&semt=ais_hybrid');"
+            data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">
+        </div>
+        <div class="w-64 h-64 bg-cover hover:scale-105 transition duration-300 ease-in-out"
+            style="background-image: url('https://img.freepik.com/premium-photo/cyber-monday-neon-template-with-gorgeous-black-white-sports-shoes_610716-2207.jpg');"
+            data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000">
+        </div>
+    </div>
+    
+    <div class="flex flex-wrap justify-center gap-4 mt-6">
+        <div class="w-64 h-64 bg-cover hover:scale-105 transition duration-300 ease-in-out"
+            style="background-image: url('https://img.freepik.com/premium-photo/pair-modern-sports-shoes-with-big-50-discount-neon-sign_762128-1674.jpg?ga=GA1.1.904921068.1702209666&semt=ais_hybrid');"
+            data-aos="flip-left" data-aos-duration="1000">
+        </div>
+        <div class="w-64 h-64 bg-cover hover:scale-105 transition duration-300 ease-in-out"
+            style="background-image: url('https://img.freepik.com/premium-photo/cyber-monday-neon-template-with-gorgeous-black-white-sports-shoes_610716-2201.jpg?ga=GA1.1.904921068.1702209666&semt=ais_hybrid');"
+            data-aos="flip-right" data-aos-delay="200" data-aos-duration="1000">
+        </div>
+        <div class="w-64 h-64 bg-cover hover:scale-105 transition duration-300 ease-in-out"
+            style="background-image: url('https://img.freepik.com/premium-photo/cyber-monday-neon-template-with-gorgeous-black-white-sports-shoes_610716-2190.jpg?ga=GA1.1.904921068.1702209666&semt=ais_hybrid');"
+            data-aos="flip-right" data-aos-delay="400" data-aos-duration="1000">
+        </div>
+    </div>
+    
+</div> 
+
+<!-- Footer -->
+<footer class="bg-[#212121] text-center py-4">
+    <p class="text-white mb-2">Try to Purchase our Brand Shoes</p>
+    <button class="hover:bg-white bg-[#1fc0a0] w-40 h-10 text-black font-bold">Shop Now</button>
+</footer>
+
+<script>
+    AOS.init({
+      duration: 1000, // Animation duration in milliseconds
+      easing: 'ease-in-out', // Easing function for the animation
+      once: true, // Animate only once on scroll
+    });
+</script>
+
+
+</body>
+</html>
